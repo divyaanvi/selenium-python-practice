@@ -17,7 +17,7 @@ products=driver.find_elements(By.CLASS_NAME,"inventory_item")
 count=len(products)
 
 print((type(products)))
-\
+
 
 print("Number of products:",count)
 
