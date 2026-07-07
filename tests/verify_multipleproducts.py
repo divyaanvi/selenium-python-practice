@@ -11,6 +11,7 @@ driver.find_element(By.ID, "login-button").click()
 driver.find_element(By.ID,"add-to-cart-sauce-labs-backpack").click()
 driver.find_element(By.ID,"add-to-cart-sauce-labs-bike-light").click()
 
+
 cart_count = driver.find_element(By.CLASS_NAME, "shopping_cart_badge").text
 
 if cart_count=="2":
